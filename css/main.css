@@ -1,0 +1,22 @@
+#main {
+  display: grid;
+  width: 100%;
+  border: 1px solid red;
+  grid-template-columns: auto;
+}
+
+.article {
+  display: grid;
+  width: 100%;
+  border: 1px solid blue;
+  grid-template-columns: 100px auto;
+}
+
+.sectiontitle {
+  width: 100px;
+  border: 1px solid purple;
+}
+
+.section {
+  border: 1px solid green;
+}
