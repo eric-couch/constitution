@@ -1,8 +1,10 @@
 #main {
   display: grid;
   width: 100%;
-  /* border: 1px solid red; */
   grid-template-columns: auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 6pt;
+  cursor: pointer;
 }
 
 .article {
@@ -14,9 +16,12 @@
 
 .sectiontitle {
   width: 100px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
